@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+
+
+header {
+    background: #000;
+    height: 60px;
+}
+
+.header-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #ccc;
+    line-height: 60px;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 16px;
+}
+
+.header-nav a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+#eyecatch {
+    height: 600px;
+    background: url(file:///Users/maocan/OneDrive/COACHTECH/LP/Web%E5%AE%9F%E8%B7%B5/img/eyecatch.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#eyecatch p {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-10%, 40%);
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+}
+
+#eyepatch {
+    height: 600px;
+    background: url(file:///Users/maocan/OneDrive/COACHTECH/LP/Web%E5%AE%9F%E8%B7%B5/img/eyecatch.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#eyepatch p {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.item1 {
+    position: relative;
+    left: 60%;
+}
+
+.news-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+#footer {
+    height: 80px;
+    text-align: center;
+    line-height: 10px;
+    background: black;
+    color: white;
+    font-size: 10px;
+}
